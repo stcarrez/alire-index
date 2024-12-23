@@ -10,7 +10,7 @@ licenses = "Apache-2.0"
 website = "https://github.com/stcarrez/spdx-tool"
 tags = ["tools", "spdx", "license"]
 
-executables = ["spdx_tool"]
+executables = ["spdx-tool"]
 
 project-files = ["spdx_tool.gpr"]
 
@@ -82,6 +82,6 @@ type = "post-fetch"
 command = ["sh", "./alire-setup.sh"]
 
 [origin]
-commit = "329b77d1423d3123eecbf4bc65a445250986eae9"
+commit = "0ca2cee437e71cd5f8a32edaa6f3facff8868be3"
 url = "git+https://gitlab.com/stcarrez/spdx-tool.git"
 
